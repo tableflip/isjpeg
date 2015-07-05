@@ -1,0 +1,35 @@
+{
+  "name": "isjpeg",
+  "version": "1.0.0",
+  "description": "is that file really (probably) a jpeg‽",
+  "main": "index.js",
+  "bin": {
+    "isjpeg": "cli.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "olizilla",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "chalk": "^1.1.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tableflip/isjpeg.git"
+  },
+  "keywords": [
+    "jpeg",
+    "magic"
+  ],
+  "bugs": {
+    "url": "https://github.com/tableflip/isjpeg/issues"
+  },
+  "homepage": "https://github.com/tableflip/isjpeg"
+}
